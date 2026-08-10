@@ -28,8 +28,8 @@ This project is a simple personal portfolio website created using HTML and CSS. 
 - GitHub Pages
 
 ## Live Website
-[View My Portfolio] (https://alexanderviernesjr.github.io/viernesalexanderportfolio/)
+[View My Portfolio](https://alexanderviernesjr.github.io/viernesalexanderportfolio/)
 
 ## Github Repository
 
-[View Repository]
+[View Repository](https://github.com/alexanderviernesjr/viernesalexanderportfolio/tree/main)
