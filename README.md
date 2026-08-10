@@ -28,7 +28,7 @@ This project is a simple personal portfolio website created using HTML and CSS. 
 - GitHub Pages
 
 ## Live Website
-[View My Portfolio]
+[View My Portfolio] (https://alexanderviernesjr.github.io/viernesalexanderportfolio/)
 
 ## Github Repository
 
