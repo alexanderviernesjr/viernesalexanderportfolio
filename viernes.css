@@ -1,0 +1,229 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+html {
+scroll-behavior: smooth;
+} 
+
+body {
+font-family: 'Segoe UI', Arial, sans-serif;
+background-color: #f8f9fa;
+color: #212529;
+line-height: 1.6;
+} 
+
+header {
+background-color: #0d6efd;
+padding: 15px 5%;
+position: sticky;
+top: 0;
+z-index: 1000;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+} 
+
+nav ul {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 25px;
+list-style: none;
+} 
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: 600;
+font-size: 16px;
+transition: color 0.3s ease;
+} 
+
+nav ul li a:hover {
+color: #ffd700;
+} 
+
+.logo-container {
+display: flex;
+align-items: center;
+gap: 12px;
+} 
+
+.logo-badge {
+background-color: white;
+color: #0d6efd;
+font-size: 1.1rem;
+font-weight: 700;
+letter-spacing: 0.5px;
+padding: 6px 12px;
+border-radius: 8px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+} 
+
+.logo-text {
+font-size: 1.6rem;
+font-weight: 800;
+color: white;
+letter-spacing: -0.5px;
+} 
+
+.hero {
+text-align: center;
+padding: 60px 20px;
+background-color: white;
+border-bottom: 1px solid #e9ecef;
+} 
+
+.profile-img {
+width: 180px;
+height: 180px;
+border-radius: 50%;
+object-fit: cover;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+border: 4px solid #f8f9fa;
+margin-bottom: 15px;
+} 
+
+.intro-heading {
+font-size: 2.2rem;
+font-weight: 800;
+max-width: 800px;
+margin: 0 auto 15px auto;
+} 
+
+.hero p {
+color: #6c757d;
+font-size: 1.1rem;
+font-weight: 500;
+max-width: 600px;
+margin: 0 auto;
+} 
+
+.card {
+width: 90%;
+max-width: 800px;
+margin: 30px auto;
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+border: 1px solid #e9ecef;
+} 
+
+.card h2 {
+color: #0d6efd;
+margin-bottom: 15px;
+font-size: 1.5rem;
+border-bottom: 2px solid #e9ecef;
+padding-bottom: 8px;
+} 
+
+#education h2 {
+color: #0066ff;
+border-bottom: 2px solid #e9ecef;
+padding-bottom: 8px;
+} 
+
+.education-block {
+margin-top: 20px;
+} 
+
+.education-block h3 {
+font-size: 1.3rem;
+font-weight: 700;
+color: #212529;
+margin-bottom: 2px;
+} 
+
+.education-block .school-name {
+font-size: 1.1rem;
+font-weight: 600;
+color: #0d6efd;
+margin-bottom: 2px;
+} 
+
+.education-block .education-meta {
+font-size: 0.95rem;
+color: #555555;
+font-weight: 400;
+} 
+
+.card p {
+color: #495057;
+} 
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 15px;
+margin-top: 15px;
+} 
+
+.grid-item {
+background-color: #f1f3f5;
+padding: 12px 20px;
+border-radius: 8px;
+font-weight: 500;
+color: #495057;
+border-left: 4px solid #0d6efd;
+transition: transform 0.2s ease;
+} 
+
+.grid-item:hover {
+transform: translateY(-2px);
+} 
+
+.card p a,
+.card p a:visited {
+color: #0066ff;
+text-decoration: underline;
+} 
+
+.card p a:hover {
+color: #0044cc;
+} 
+
+footer {
+text-align: center;
+padding: 25px;
+background-color: #212529;
+color: #a8aebb;
+margin-top: 50px;
+font-size: 14px;
+} 
+
+@media (max-width: 768px) {
+header {
+flex-direction: column;
+padding: 15px 12px;
+gap: 12px;
+} 
+
+nav ul { gap: 15px; }
+
+nav ul li a { font-size: 15px; }
+
+.logo-text { font-size: 1.4rem; }
+
+.logo-badge { font-size: 0.95rem; padding: 5px 10px; }
+
+.hero { padding: 40px 15px; }
+
+.intro-heading { font-size: 1.5rem; }
+
+.profile-img { width: 140px; height: 140px; }
+
+.card { width: 92%; padding: 20px; margin: 20px auto; }
+
+.grid-container { grid-template-columns: 1fr; gap: 10px; }
+
+} 
+
